@@ -26,13 +26,9 @@ If the database file already exists then the schema won't be updated, but if it 
 
 ```python
 from easydb import EasyDB
-
 db = EasyDb('my.db', {'users': ['username text', 'description text']})
-
 db.query("INSERT INTO users (username, description) VALUES (?, ?)", ('ben', 'some sort of description'))
-
 for result in db.query("SELECT * FROM users"):
     print result
-    
 // => ('ben', 'some sort of description')
 ```
