@@ -13,7 +13,7 @@ cursor = db.query("SELECT * FROM mytable")
 
 New databases can be creating by specifying your schema as a dictionary, eg:
 
-```
+```python
 schema = {
     'table_name': ['column_name column_type', …],
     'table_name': ['column_name column_type', …],
