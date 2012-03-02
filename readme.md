@@ -1,7 +1,6 @@
-
 # EasyDB
 
-A really simple **SQLite wrapper** for that saves you from having to worry about creating tables or managing connections.
+A really simple **SQLite wrapper** that saves you from having to worry about creating tables or managing connections.
 
 It can be used on existing SQLite database by simply passing in the database filename:
 
