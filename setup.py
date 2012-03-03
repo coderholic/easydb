@@ -18,4 +18,3 @@ setup(
     license = "MIT",
     keywords = "db database sqlite",
 )
-
