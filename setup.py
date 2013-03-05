@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name='easydb',
-    version='0.1',
+    version='0.2',
     description='Simple SQLite wrapper to make it easier to manage your database',
     author='Ben Dowling',
     author_email='ben.m.dowling@gmail.com',
@@ -14,7 +14,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    long_description=read('README.md'),
+    long_description=read('readme.md'),
     license = "MIT",
     keywords = "db database sqlite",
 )
