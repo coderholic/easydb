@@ -7,7 +7,7 @@ class EasyDB:
         if not exists and not schema:
             raise Exception, "The specified database file does not exist, and you haven't provided a schema"
     
-        self.connection = sqlite3.connect(filename)
+        self.connection = sqlite3.connect(filename, **kwargs)
         if not exists:
             for table_name, fields in schema.items():
                 query = "CREATE TABLE %s (%s)" % (table_name, ", ".join(fields))
